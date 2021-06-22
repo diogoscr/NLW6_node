@@ -12,11 +12,11 @@ const app = express();
 */
 
 app.get("/test", (request, response) => {
-  return response.send("Olá NLW");
+  return response.send("Olá NLW get_test");
 });
 
 app.post("/test-post", (request, response) => {
-  return response.send("Olá NLW method post");
+  return response.send("Olá NLW method post test");
 });
 
 // http://localhost:3000
