@@ -4,20 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
-// @types/express
-var app = express_1.default.json();
-/**
- get
- post
- put
- patch
- delete
-*/
-app.get("/test", function (request, response) {
-    return response.send("Olá NLW get_test");
-});
-app.post("/test-post", function (request, response) {
-    return response.send("Olá NLW method post test");
-});
-// http://localhost:3000
+require("reflect-metadata");
+require("./database");
+var app = express_1.default();
 app.listen(3000, function () { return console.log("Server is running NLW"); });
