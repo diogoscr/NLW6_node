@@ -11,7 +11,19 @@ const app = express();
  delete
 */
 
+/** 
+ * Tipos de params
+ * 
+ * Route params (produtos/123123)
+ * Query params (produtos?name=teclado&description=nice)
+ * Body params (post,put,patch)
+ * 
+ */
+
 app.get("/test", (request, response) => {
+
+  // Request -> entrando
+  // Response -> saindo
   return response.send("Olá NLW get_test");
 });
 
