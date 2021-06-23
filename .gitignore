@@ -1,2 +1,7 @@
-# readme
-*.md
+# IDE configs #
+/.idea
+/.settings
+/.vscode
+*.iws
+*.iml
+*.ipr
