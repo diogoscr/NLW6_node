@@ -1,6 +1,12 @@
 {
-  "type": "sqlite",
-  "database": "src/database/database.sqlite",
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "1234",
+  "database": "nlw_valoriza",
+  "synchronize": true,
+  "logging": false,
   "migrations": [
     "src/database/migrations/*.ts"
   ],

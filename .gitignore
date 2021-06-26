@@ -7,3 +7,5 @@
 *.ipr
 
 README.md
+
+package-lock.json
